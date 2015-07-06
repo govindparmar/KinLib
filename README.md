@@ -9,9 +9,9 @@ addVectorsG(VECTOR, VECTOR) - adds two generic (i.e. not necessarily perpendicul
 
 centerMass(int, ...) - given an integer N followed by N objects, computes the centroid (i.e. center of mass) of all the objects.
 
-collideObjectsStick(OBJECT*, OBJECT*) - given two pointers to objects, updates their velocity assuming they collided and stuck together
+collideObjectsStick(OBJECT\*, OBJECT\*) - given two pointers to objects, updates their velocity assuming they collided and stuck together
 
-collideObjectsBounce(OBJECT*, OBJECT*) - given two pointers to objects, updates their velocities assuming they collided and ricocheted off each other
+collideObjectsBounce(OBJECT\*, OBJECT\*) - given two pointers to objects, updates their velocities assuming they collided and ricocheted off each other
 
 fsign(double) - returns -1.0, 0.0, or 1.0 corresponding to the sign of the number passed as an argument.
 
