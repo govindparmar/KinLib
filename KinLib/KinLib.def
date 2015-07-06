@@ -1,0 +1,11 @@
+LIBRARY KinLib
+EXPORTS
+	arePerpV
+	addPerpVecs
+	addVectorsG
+	centerMass
+	collideObjectsStick
+	collideObjectsBounce
+	fsign
+	dotProduct
+	multScalar
